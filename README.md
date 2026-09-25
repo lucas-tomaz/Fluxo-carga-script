@@ -21,8 +21,8 @@ O estudo de fluxo de carga é fundamental para o planejamento e operação de si
 ## 🛠️ Tecnologias Utilizadas
 
 * **Linguagem Principal:** C e Python
-* **Bibliotecas / Bibliotecas de Cálculo:** `NumPy`, `Pandas` , `math`*
-* **Visualização:** `Matplotlib` *
+* **Bibliotecas / Bibliotecas de Cálculo:** `NumPy`, `Pandas` , `math`.
+* **Visualização:** `Matplotlib`
 
 ---
 
@@ -49,3 +49,7 @@ O script processa tabelas contendo as barras e linhas do sistema elétrico:
 1. **Clone o repositório:**
    ```bash
    git clone [https://github.com/lucas-tomaz/Fluxo-carga-script.git](https://github.com/lucas-tomaz/Fluxo-carga-script.git)
+
+2. **Defina a sequência e o esquema de conexões do sistema de potência analisado**
+    ```bash
+    parâmetros: .v(tensão em pu); .theta(fase da barra); .p_spec(potencia ativa da barra); .q_spec(potencia reativa da barra)
