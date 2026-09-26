@@ -11,7 +11,7 @@ O estudo de fluxo de carga é fundamental para o planejamento e operação de si
 ### ✨ Funcionalidades Principais
 - [x] Montagem automática da **Matriz de Admitância Nodal ($Y_{bus}$)**
 - [x] Classificação e tratamento das barras do sistema (**Slack/V-θ**, **PV**, **PQ**)
-- [x] Resolução do fluxo de potência via métodos iterativos (ex.: *Newton-Raphson* / *Gauss-Seidel*)
+- [x] Resolução do fluxo de potência via métodos iterativos (*Newton-Raphson*)
 - [x] Cálculo do fluxo de potência ativa ($P$) e reativa ($Q$) nos ramos/linhas de transmissão
 - [x] Levantamento de perdas elétricas na rede
 - [ ] Exportação ou visualização gráfica dos resultados (módulos de tensão e ângulos)
