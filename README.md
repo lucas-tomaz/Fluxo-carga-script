@@ -50,6 +50,10 @@ O script processa tabelas contendo as barras e linhas do sistema elétrico:
    ```bash
    git clone [https://github.com/lucas-tomaz/Fluxo-carga-script.git](https://github.com/lucas-tomaz/Fluxo-carga-script.git)
 
-2. **Defina a sequência e o esquema de conexões do sistema de potência analisado**
+2. **Compilando o exemplo `main.c`**
+    Compile todos os arquivos:
     ```bash
-    parâmetros: .v(tensão em pu); .theta(fase da barra); .p_spec(potencia ativa da barra); .q_spec(potencia reativa da barra)
+      gcc *.c -o fluxo_carga -lm
+
+3. **Acesse o resultado do diagrama**
+   Acesse a pasta: /scripts 
